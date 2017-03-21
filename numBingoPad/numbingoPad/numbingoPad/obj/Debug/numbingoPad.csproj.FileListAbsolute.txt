@@ -1,0 +1,9 @@
+c:\users\carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\bin\Debug\numbingoPad.exe.config
+c:\users\carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\bin\Debug\numbingoPad.exe
+c:\users\carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\bin\Debug\numbingoPad.pdb
+c:\users\carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\obj\Debug\numbingoPad.Properties.Resources.resources
+c:\users\carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\obj\Debug\numbingoPad.csproj.GenerateResource.Cache
+c:\users\carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\obj\Debug\numbingoPad.exe
+c:\users\carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\obj\Debug\numbingoPad.pdb
+C:\Users\Carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\obj\Debug\numbingoPad.csprojResolveAssemblyReference.cache
+C:\Users\Carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\obj\Debug\numbingoPad.Form1.resources

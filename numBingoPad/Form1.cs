@@ -12,8 +12,21 @@ namespace numbingoPad
 {
     public partial class Form1 : Form
     {
+        Boolean num0bool = false;
+        Boolean num1bool = false;
+        Boolean num2bool = false;
+        Boolean num3bool = false;
+        Boolean num4bool = false;
+        Boolean num5bool = false;
+        Boolean num6bool = false;
+        Boolean num7bool = false;
+        Boolean num8bool = false;
+        Boolean num9bool = false;
+
         public Form1()
         {
+           
+
 
             this.Size = new Size(500, 800);
 
@@ -24,16 +37,16 @@ namespace numbingoPad
             title.Location = new System.Drawing.Point(65, 20);
             this.Controls.Add(title);
 
-            Label num0 = new Label();
-            Label num1 = new Label();
-            Label num2 = new Label();
-            Label num3 = new Label();
-            Label num4 = new Label();
-            Label num5 = new Label();
-            Label num6 = new Label();
-            Label num7 = new Label();
-            Label num8 = new Label();
-            Label num9 = new Label();
+            customLabel num0 = new customLabel();
+            customLabel num1 = new customLabel();
+            customLabel num2 = new customLabel();
+            customLabel num3 = new customLabel();
+            customLabel num4 = new customLabel();
+            customLabel num5 = new customLabel();
+            customLabel num6 = new customLabel();
+            customLabel num7 = new customLabel();
+            customLabel num8 = new customLabel();
+            customLabel num9 = new customLabel();
 
             num0.Text = "0";
             num1.Text = "1";
@@ -46,7 +59,6 @@ namespace numbingoPad
             num8.Text = "8";
             num9.Text = "9";
 
-
             num0.Location = new System.Drawing.Point(250, 500);
             num1.Location = new System.Drawing.Point(125, 375);
             num2.Location = new System.Drawing.Point(250, 375);
@@ -58,6 +70,16 @@ namespace numbingoPad
             num8.Location = new System.Drawing.Point(250, 125);
             num9.Location = new System.Drawing.Point(375, 125);
 
+            num0.Click += new EventHandler(label_Click);
+            num1.Click += new EventHandler(label_Click);
+            num2.Click += new EventHandler(label_Click);
+            num3.Click += new EventHandler(label_Click);
+            num4.Click += new EventHandler(label_Click);
+            num5.Click += new EventHandler(label_Click);
+            num6.Click += new EventHandler(label_Click);
+            num7.Click += new EventHandler(label_Click);
+            num8.Click += new EventHandler(label_Click);
+            num9.Click += new EventHandler(label_Click);
 
             num0.AutoSize = true;
             num1.AutoSize = true;
@@ -70,6 +92,7 @@ namespace numbingoPad
             num8.AutoSize = true;
             num9.AutoSize = true;
 
+       
 
             this.Controls.Add(num0);
             this.Controls.Add(num1);
@@ -91,9 +114,21 @@ namespace numbingoPad
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
 
+        private void label_Click(object sender, EventArgs e)
+        {
+            Label clickedLabel = sender as Label;
+            if (num0bool == false)
+            {
+                num0bool = true; 
+                clickedLabel.ForeColor = Color.Green;
+            } else
+            {
+                num0bool = false;
+                clickedLabel.ForeColor = Color.Red; 
+            }
+            
+         
         }
     }
 }

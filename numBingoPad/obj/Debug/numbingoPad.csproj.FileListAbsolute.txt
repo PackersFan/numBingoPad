@@ -7,3 +7,12 @@ c:\users\carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\ob
 c:\users\carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\obj\Debug\numbingoPad.pdb
 C:\Users\Carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\obj\Debug\numbingoPad.csprojResolveAssemblyReference.cache
 C:\Users\Carson\documents\visual studio 2015\Projects\numbingoPad\numbingoPad\obj\Debug\numbingoPad.Form1.resources
+C:\Users\Carson\Documents\GitHub\numBingoPad\numbingoPad\bin\Debug\numbingoPad.exe.config
+C:\Users\Carson\Documents\GitHub\numBingoPad\numbingoPad\obj\Debug\numbingoPad.exe
+C:\Users\Carson\Documents\GitHub\numBingoPad\numbingoPad\obj\Debug\numbingoPad.pdb
+C:\Users\Carson\Documents\GitHub\numBingoPad\numbingoPad\bin\Debug\numbingoPad.exe
+C:\Users\Carson\Documents\GitHub\numBingoPad\numbingoPad\bin\Debug\numbingoPad.pdb
+C:\Users\Carson\Documents\GitHub\numBingoPad\numbingoPad\obj\Debug\numbingoPad.csprojResolveAssemblyReference.cache
+C:\Users\Carson\Documents\GitHub\numBingoPad\numbingoPad\obj\Debug\numbingoPad.Form1.resources
+C:\Users\Carson\Documents\GitHub\numBingoPad\numbingoPad\obj\Debug\numbingoPad.Properties.Resources.resources
+C:\Users\Carson\Documents\GitHub\numBingoPad\numbingoPad\obj\Debug\numbingoPad.csproj.GenerateResource.Cache
